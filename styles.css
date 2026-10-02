@@ -1,0 +1,81 @@
+/* Paleta de colores y Tipografía */
+:root {
+  --bg-color: #f4f7f6;
+  --card-bg: #ffffff;
+  --primary-color: #2b5c8f;
+  --text-color: #2d3748;
+  --accent-color: #10b981;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+}
+
+.author {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-top: 0;
+}
+
+.author span {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.card {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Elemento adicional de la interfaz */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+  padding: 6px 16px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
