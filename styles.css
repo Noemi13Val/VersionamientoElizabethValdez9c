@@ -1,11 +1,11 @@
 /* Paleta de colores y Tipografía */
 :root {
-  --bg-color: #f4f7f6;
+  --bg-color: #fbf5fb;
   --card-bg: #ffffff;
-  --primary-color: #2b5c8f;
-  --text-color: #2d3748;
-  --accent-color: #10b981;
-  --border-color: #e2e8f0;
+  --primary-color: #a066c9;
+  --text-color: #4a3355;
+  --accent-color: #f472b6;
+  --border-color: #ecd9f2;
 }
 
 body {
